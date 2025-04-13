@@ -25,3 +25,16 @@ Try different models by changing `Ollama(model="llama2")` to:
 - `mistral` (faster)
 - `neural-chat` (fine-tuned)
 - `gemma:2b` (lightweight)
+
+📌 Troubleshooting
+❌ Ollama not working?
+
+Run ollama serve in a separate terminal.
+
+Check installed models with "ollama list".
+
+❌ Python errors?
+
+Ensure dependencies are installed (pip install -r requirements.txt).
+
+Use Python 3.7+.
